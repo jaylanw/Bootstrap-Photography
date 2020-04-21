@@ -1,0 +1,32 @@
+* {
+    font-family: 'Manrope', sans-serif;
+}
+  
+nav {
+    width: 100%;
+    background-color: black;
+    color: white;
+}
+.nav-item, .nav-link  {
+    color: white;
+    float: right;
+}
+#navheader {
+    text-align: right;
+    padding-top: 20px;
+    padding-right: 20px;
+}
+#topspacer {
+    height: 50px;
+}
+
+#break {
+    height: 30px;
+}
+
+@media screen and (max-width: 768px) {
+     .container {
+      width: 100%;
+      padding: 20px;
+    }
+}
