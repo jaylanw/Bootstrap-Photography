@@ -41,6 +41,15 @@ html, body {
     color: gray;
     text-align: center;
 }
+.site {
+    display: flex;
+    min-height: 100vh;
+    flex-direction: column;
+  }
+  
+  .site-content {
+    flex: 1;
+  }
 @media screen and (max-width: 768px) {
      .container {
       width: 100%;
