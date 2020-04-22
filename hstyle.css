@@ -1,0 +1,33 @@
+* {
+    font-family: 'Manrope', sans-serif;
+}
+body {
+    background-image: url('images/os.jpg');
+    background-repeat: no-repeat;
+    background-attachment: fixed;
+    background-position: center;
+    background-size: cover;
+    background-blend-mode: overlay;
+}
+h1 {
+    color: white;
+    font-size: 150px;
+    text-align: center;
+}
+
+div {
+    text-align: center;
+    font-size: 40px;
+}
+
+.nav-item, .nav-link {
+    color: white;
+    padding-right: 10px;
+    text-decoration: none;
+}
+@media screen and (max-width: 768px) {
+    .container {
+     width: 100%;
+     padding: 20px;
+   }
+}
