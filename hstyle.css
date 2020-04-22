@@ -2,12 +2,11 @@
     font-family: 'Manrope', sans-serif;
 }
 body {
-    background-image: url('images/os.jpg');
-    background-repeat: no-repeat;
-    background-attachment: fixed;
+    background-image: url(images/os.jpg);
     background-position: center;
+    background-repeat: no-repeat;
     background-size: cover;
-    background-blend-mode: overlay;
+    max-width: 100%;
 }
 h1 {
     color: white;
@@ -26,7 +25,7 @@ div {
     text-decoration: none;
 }
 @media screen and (max-width: 768px) {
-    .container {
+    .container{
      width: 100%;
      padding: 20px;
    }

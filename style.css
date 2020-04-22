@@ -23,8 +23,24 @@ nav {
 #break {
     height: 30px;
 }
-
-
+html, body {
+    height: 100%;
+  }
+  body {
+    display: flex;
+    flex-direction: column;
+  }
+  .container {
+    flex: 1 0 auto;
+  }
+  .sticky-footer {
+    flex-shrink: 0;
+    height: 100px;
+    width: 100%;
+    background-color: black;
+    color: gray;
+    text-align: center;
+}
 @media screen and (max-width: 768px) {
      .container {
       width: 100%;
