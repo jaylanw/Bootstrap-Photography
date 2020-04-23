@@ -24,9 +24,24 @@ div {
     padding-right: 10px;
     text-decoration: none;
 }
-@media screen and (max-width: 768px) {
-    .container{
-     width: 100%;
-     padding: 20px;
-   }
+@media only screen
+and (min-device-width : 320px)
+and (max-device-width : 480px) {
+    body, h1 {
+        width: 100%;
+        height: auto;
+        font-size: 50px;
+        align-items: center;
+  }
+}
+
+@media only screen
+and (min-device-width : 768px)
+and (max-device-width : 1024px) {
+    body,h1 {
+            width: 100%;
+            height: auto;
+            font-size: 50px;
+            align-items: center;
+}
 }

@@ -50,9 +50,27 @@ html, body {
   .site-content {
     flex: 1;
   }
-@media screen and (max-width: 768px) {
-     .container {
-      width: 100%;
-      padding: 20px;
+
+  @media only screen
+  and (min-device-width : 320px)
+  and (max-device-width : 480px) {
+    .container, .sticky-footer, nav  {
+      max-width: 100%;
     }
+    .img-fluid {
+      width: 100%;
+      height: auto;
+    }
+  }
+
+  @media only screen
+and (min-device-width : 768px)
+and (max-device-width : 1024px) {
+  .container, .sticky-footer, nav{
+    max-width: 100%;
+  }
+  .img-fluid {
+    width: 100%;
+    height: auto;
+  }
 }
